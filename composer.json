@@ -1,0 +1,22 @@
+{
+    "name": "systonic/phpdiff",
+    "description": ".",
+    "keywords": ["php", "deploy", "phploy", "sftp", "git"],
+    "homepage": "https://github.com/systonic/phpdiff",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvain Larras"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/climate": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Systonic\\PHPdiff\\": "src"
+        }
+    },
+    "bin": ["bin/phpdiff"]
+}
